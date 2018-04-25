@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pingMFC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\www\AppData\Local\Temp\RSPF802.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/pingMFC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\www\Desktop\pingMFC\pingMFCDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\www\AppData\Local\Temp\RSPF802.tmp" 
+Creating command line "link.exe ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/pingMFC.pdb" /debug /machine:I386 /out:"Debug/pingMFC.exe" /pdbtype:sept  .\Debug\pingMFC.obj .\Debug\pingMFCDlg.obj .\Debug\StdAfx.obj .\Debug\pingMFC.res "
+<h3>Output Window</h3>
+Compiling...
+pingMFCDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+pingMFC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
